@@ -1,6 +1,12 @@
 To create a FOAF graph for a FriendFeed user;
 
-requires; tokyocabinet, ruby-tokyocabinet, httpclient, ruby-graphviz
+requires;
+  tokyocabinet
+  ruby-tokyocabinet
+  ff.rb in f2p/lib
+  httpclient (svn trunk)
+  graphviz
+  ruby-graphviz
 
 1. prepare FriendFeed id
   ex. => nahi
