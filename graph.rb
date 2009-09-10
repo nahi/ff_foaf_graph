@@ -79,7 +79,6 @@ end
 store = Store.new('db')
 opt = {
   :type => 'digraph',
-  :dim => '3',
   :use => 'twopi',
   :center => 'true',
   :pack => 'true',
